@@ -1,4 +1,5 @@
 <?php
+/*Ponto de entrada do site, roteando para o controlador de usuários*/
 require_once __DIR__ . '/../app/controllers/UsuarioController.php';
 
 $controller = new UsuarioController();
@@ -10,3 +11,4 @@ if ($acao == 'criar') {
 } else {
     $controller->index();
 }
+?>
