@@ -5,13 +5,18 @@
 </head>
 <body>
     <!--Exibição do formulário para criar um novo usuário-->
-    <h1>Novo Usuário</h1>
-
-    <form method="POST">
-        <input name="nome" placeholder="Nome">
-        <input name="email" placeholder="Email">
-        <button>Salvar</button>
-    </form>
+    <div class="container">
+        <h1>Novo Usuário</h1>
+        
+        <p>Sejam Bem-vindos! O objetivo do projeto é demonstrar de forma simples como funciona a separação de responsabilidades utilizando o padrão MVC (Model-View-Controller), utilizando HTML, CSS, JavaScript, PHP e MySQL.</p>
+    
+        <form method="POST">
+            <input name="nome" placeholder="Nome">
+            
+            <input name="email" placeholder="Email">
+            <button id="botao">Salvar</button>
+        </form>
+    </div>
 
     <script src="/js/script.js"></script>
 </body>
