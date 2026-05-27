@@ -5,7 +5,7 @@ class Database {
         return new PDO(
             "mysql:host=localhost;dbname=mvc_exemplo",
             "root",
-            "MySqlusado8@"
+            ""
         );
     }
 }
