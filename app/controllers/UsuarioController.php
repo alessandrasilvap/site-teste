@@ -14,7 +14,8 @@ class UsuarioController {
         if ($_POST) {
             $model = new Usuario();
             $model->criar($_POST['nome'], $_POST['email']);
-            header("Location: /");
+            header("Location: /site-teste/public/");
+            exit;
         } else {
             require __DIR__ . '/../views/usuarios/criar.php';
         }
