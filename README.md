@@ -1,3 +1,5 @@
+<img width="1365" height="596" alt="image" src="https://github.com/user-attachments/assets/e456ed69-76fb-44e1-a097-6d0bb9ca0148" />
+
 # 📚 Sistema MVC Simples em PHP
 
 Projeto desenvolvido para estudo da arquitetura MVC utilizando:
