@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
 </head>
 <body>
     <!--Exibição do formulário para criar um novo usuário-->
@@ -12,12 +12,11 @@
     
         <form method="POST">
             <input name="nome" placeholder="Nome">
-            
             <input name="email" placeholder="Email">
             <button id="botao">Salvar</button>
         </form>
     </div>
 
-    <script src="/js/script.js"></script>
+    <script src="../public/js/script.js"></script>
 </body>
 </html>
